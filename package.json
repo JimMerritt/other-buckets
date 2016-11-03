@@ -1,7 +1,7 @@
 {
-  "name": "onyx",
+  "name": "jimmerrittbasicbuild",
   "version": "1.0.0",
-  "description": "Onyx",
+  "description": "Jim Merritt's basic Jekyll build with Gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

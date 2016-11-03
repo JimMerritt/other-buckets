@@ -4,11 +4,11 @@
     <title>Basic Jekyll Build</title>
     <description>Jim Merritt's basic Jekyll build. This includes gulp and is based off the build by Aaron Lasseigne.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2016 13:11:06 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2016 13:11:06 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Nov 2016 12:42:56 -0400</pubDate>
+    <lastBuildDate>Thu, 03 Nov 2016 12:42:56 -0400</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
   </channel>
 </rss>

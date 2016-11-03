@@ -5,7 +5,6 @@ baseurl: ""
 url: ""
 
 markdown: kramdown
-theme: minima
 
 exclude:
   - package.json
