@@ -1,8 +1,3 @@
 @charset "utf-8";
 
-@import 'globals/reset',
-        'globals/mixins',
-        'globals/functions',
-        'globals/variables',
-        'layout/base',
-        'typography/base'
+@import 'about-us/style'
