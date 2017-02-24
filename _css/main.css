@@ -4,5 +4,10 @@
         'globals/mixins',
         'globals/functions',
         'globals/variables',
+
+        'typography/base',
+
         'layout/base',
-        'typography/base'
+        'layout/navigation',
+        'layout/home',
+        'layout/contributor-corner'

@@ -13,3 +13,4 @@ exclude:
   - assets/svg_store
   - Gemfile
   - Gemfille.lock
+  - content
