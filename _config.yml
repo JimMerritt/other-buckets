@@ -11,3 +11,5 @@ exclude:
   - gulpfile.js
   - node_modules
   - assets/svg_store
+  - Gemfile
+  - Gemfille.lock

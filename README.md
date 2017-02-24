@@ -4,3 +4,6 @@ Jim Merritt's basic Jekyll build. This includes gulp and is based off the build 
 
 ### Inclusion of \_site ###
 Originally ignored by default for git pushes, the \_site folder is the target of Jekyll's build command. For purposes of a Jekyll build, the folder will be overwritten or recreated if required. When using a series of commands in Gulp, however, this is not as seamless. That has led me to include the base \_site folder in git pushes.
+
+### This is an overall hub for quick dev.
+Using this as a go-to spot for a standard build to allow quick iteration of concepts.
