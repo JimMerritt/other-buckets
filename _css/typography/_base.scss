@@ -1,14 +1,1 @@
 /* Base Typography */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
-$mont: 'Montserrat', "Helvetica Neue", Helvetica, Tahoma, Verdana, Segoe, Arial, sans-serif;
-
-body {
-  font-family: $mont;
-  font-size: 1em;
-  font-weight: 300;
-  color: $darkGrey;
-}
-a {
-  text-decoration: none;
-}
