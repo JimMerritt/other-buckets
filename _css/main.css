@@ -1,10 +1,9 @@
 @charset "utf-8";
 
 @import 'globals/reset',
+        'globals/variables',
         'globals/mixins',
         'globals/functions',
-        'globals/variables',
+        'typography/base';
 
-        'typography/base',
-
-        'layout/base',
+@import 'layout/**/*.scss';

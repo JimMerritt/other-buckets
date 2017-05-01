@@ -7,3 +7,33 @@ Originally ignored by default for git pushes, the \_site folder is the target of
 
 ### This is an overall hub for quick dev.
 Using this as a go-to spot for a standard build to allow quick iteration of concepts.
+
+## Tools
+I'm using gulp to increase efficiency when building. The main purpose is for CSS/SASS and JavaScript concatenation and minification as well as using the JavaScript Babel tool to assure ES6 fallbacks and to improve code reliability.
+
+### Addon List
+- gulp
+- gulp-util
+- gulp-concat
+- gulp-sass
+- gulp-sass-glob
+- child_process
+- browser-sync
+- gulp-autoprefixer
+- gulp-cssnano
+- gulp-svgstore
+- gulp-svgmin
+- gulp-cheerio
+- path
+- babel
+
+## Adding Production Environment
+When setting a 'production environment' only asset or variable, a Gulp task is established to run as 'Production Environment'. To conditionally include assets or variables into the build during this time, set within a liquid template conditional tag.
+
+```
+{% if jekyll.environment == 'production' %}
+  // Include assets here
+{% endif %}
+```
+
+Then, when producing, run 'gulp  produce' to output a production build. This was originally built as an easy solution for Google Analytics code to not run on the local build.
