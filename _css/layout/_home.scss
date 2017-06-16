@@ -16,6 +16,18 @@
   background-size: cover;
   background-image: url('/assets/images/intro-banner-bg.jpg');
   color: $white;
+  div {
+    width: 90%;
+    font-size: 200%;
+    line-height: 1;
+    p {
+      margin: 0;
+    }
+    h1 {
+      margin: 0;
+      text-align: left;
+    }
+  }
 }
 .work {
   display: flex;
@@ -23,12 +35,20 @@
   background-color: $dark-grey;
   color: $white;
   h2 {
+    margin: 0;
     padding: 2.5rem 0 2.25rem;
     line-height: 1;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+      to bottom,
+      $dark-grey,
+      darken($dark-grey, 10%)
+    );
   }
   .work__panel {
     position: relative;
-    width: 33.33%;
+    width: 25%;
     min-height: 25rem;
     display: flex;
     align-items: center;
@@ -65,11 +85,11 @@
   }
 }
 .facts {
-  padding: 2.5vh 2vw 5vh;
+  padding: 4vh 2vw 7vh;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  background-color: $dark-grey;
+  background-color: lighten($dark-grey, 1.5%);
   color: $white;
   h2 {
     margin: 0 0 2.5vh;
@@ -81,18 +101,24 @@
   }
   p:not(.numeric) {
     margin: 0;
-    color: $mid-grey;
   }
   .facts__panel {
     width: calc(50% - 2vw);
     margin: 1vw;
     padding: 2rem 0;
     background-color: darken($dark-grey, 2.5%);
-    box-shadow: 0px 5px 15px darken($dark-grey, 5%);
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+      to bottom,
+      $dark-grey,
+      darken($dark-grey, 5%)
+    );
+    box-shadow: 0px 5px 15px darken($dark-grey, 10%);
   }
 }
 .testimonials {
-  padding: 2.5vh 2vw 5vh;
+  padding: 4vh 2vw 7vh;
   background: $orange;
   text-align: center;
   color: white;
@@ -102,6 +128,7 @@
   }
 }
 .contact {
+  padding: 4vh 2vw 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
