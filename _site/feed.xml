@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basic Jekyll Build</title>
-    <description>Jim Merritt's basic Jekyll build. This includes gulp and is based off the build by Aaron Lasseigne.
+    <title>Other Buckets</title>
+    <description>Other Buckets is a development company. We focus on building modern applications, games and websites.
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 May 2017 11:50:09 -0400</pubDate>
-    <lastBuildDate>Mon, 01 May 2017 11:50:09 -0400</lastBuildDate>
+    <pubDate>Sun, 21 May 2017 09:20:50 -0400</pubDate>
+    <lastBuildDate>Sun, 21 May 2017 09:20:50 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
   </channel>

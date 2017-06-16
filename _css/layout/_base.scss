@@ -1,0 +1,24 @@
+body {
+  font-family: $source;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.button {
+  margin: 0 auto;
+  padding: .75rem 2rem;
+  background: $dark-grey;
+  border: 2px solid $dark-grey;
+  color: $white;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  &:hover {
+    background: $white;
+    color: $dark-grey;
+    cursor: pointer;
+  }
+}

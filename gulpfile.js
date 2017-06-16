@@ -62,6 +62,7 @@ gulp.task('serve', () => {
     }
   });
   gulp.watch(cssFiles, ['css']);
+  gulp.watch(jsFiles, ['babel']);
 });
 
 gulp.task('jekyllProduce', (done) => {

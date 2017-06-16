@@ -1,1 +1,16 @@
 /* Base Typography */
+$source: 'Source Sans Pro', Verdana, Geneva, Tahoma, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+$source-mono: 'Source Code Pro', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+h2, h3 {
+  margin: 0 0 .25em;
+}
+p {
+  margin: 0 0 1.25em;
+}
+a {
+  text-decoration: none;
+}
+.numeric {
+  font-family: $source-mono;
+}
