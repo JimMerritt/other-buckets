@@ -36,15 +36,12 @@
   color: $white;
   h2 {
     margin: 0;
-    padding: 2.5rem 0 2.25rem;
+    padding: 2.35rem 0 2.5rem;
     line-height: 1;
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(
-      to bottom,
-      $dark-grey,
-      darken($dark-grey, 10%)
-    );
+    background-color: $dark-grey;
+    background-image: url('/assets/images/pattern-bg-dark-pattern.png');
+    border-top: 1px solid darken($green, 50%);
+    border-bottom: 1px solid darken($green, 50%);
   }
   .work__panel {
     position: relative;
@@ -52,7 +49,6 @@
     min-height: 25rem;
     display: flex;
     align-items: center;
-    border: 1px solid red;
     background-position: center;
     background-size: cover;
     background-image: url('/assets/images/intro-banner-bg.jpg');
@@ -67,11 +63,20 @@
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
+  background-image: url('/assets/images/pattern-bg-pixels.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  h2 {
+    margin: 0 0 1.5rem;
+  }
   .team__panel {
     width: 31.33%;
     margin: 1%;
     padding: 1rem;
     text-align: center;
+    z-index: 5;
+    background-color: white;
+    border: 4px solid $green;
     .team__panel__social {
       width: 100%;
       display: flex;
@@ -91,8 +96,9 @@
   text-align: center;
   background-color: lighten($dark-grey, 1.5%);
   color: $white;
+  background-image: url('/assets/images/pattern-bg-dark-pattern.png');
   h2 {
-    margin: 0 0 2.5vh;
+    margin: 0 0 1.5rem;
   }
   .numeric {
     margin: 0 0 1rem;
@@ -106,22 +112,24 @@
     width: calc(50% - 2vw);
     margin: 1vw;
     padding: 2rem 0;
-    background-color: darken($dark-grey, 2.5%);
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(
       to bottom,
-      $dark-grey,
-      darken($dark-grey, 5%)
+      rgba($dark-grey, 0.8),
+      rgba(darken($dark-grey, 5%), 0.8)
     );
     box-shadow: 0px 5px 15px darken($dark-grey, 10%);
   }
 }
 .testimonials {
-  padding: 4vh 2vw 7vh;
+  padding: 3rem 2vw 4rem;
   background: $orange;
   text-align: center;
   color: white;
+  background-image: url('/assets/images/pattern-bg-orange-circles.png');
+  border-top: 1px solid darken($orange, 10%);
+  border-bottom: 1px solid darken($orange, 10%);
   .testimonial__panel {
     width: 80%;
     margin: 0 auto;

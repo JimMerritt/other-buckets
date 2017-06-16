@@ -16,4 +16,5 @@ a {
 }
 .reversed {
   color: $green;
+  text-shadow: 1px 3px darken($green, 70%);
 }
